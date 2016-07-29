@@ -39,10 +39,12 @@ var config = {
     livenet: {
       provider: 'insight',
       url: 'https://insight.bitpay.com:443',
+      apiPrefix: '/api'
     },
     testnet: {
       provider: 'insight',
       url: 'https://test-insight.bitpay.com:443',
+      apiPrefix: '/api',
       // url: 'http://localhost:3001',
       // Multiple servers (in priority order)
       // url: ['http://a.b.c', 'https://test-insight.bitpay.com:443'],
