@@ -1,31 +1,24 @@
 {
     "apps": [{
         "name": "bws-locker",
-        "script": "./locker/locker.js",
-        "watch": true
+        "script": "./locker/locker.js"
     }, {
         "name": "bws-messagebroker",
-        "script": "./messagebroker/messagebroker.js",
-        "watch": true
+        "script": "./messagebroker/messagebroker.js"
     }, {
         "name": "bws-bcmonitor",
-        "script": "./bcmonitor/bcmonitor.js",
-        "watch": true
+        "script": "./bcmonitor/bcmonitor.js"
     }, {
         "name": "bws-emailservice",
-        "script": "./emailservice/emailservice.js",
-        "watch": true
+        "script": "./emailservice/emailservice.js"
     }, {
         "name": "bws-pushnotificationsservice",
-        "script": "./pushnotificationsservice/pushnotificationsservice.js",
-        "watch": true
+        "script": "./pushnotificationsservice/pushnotificationsservice.js"
     }, {
         "name": "bws-fiatrateservice",
-        "script": "./fiatrateservice/fiatrateservice.js",
-        "watch": true
+        "script": "./fiatrateservice/fiatrateservice.js"
     }, {
         "name": "bws",
-        "script": "./bws.js",
-        "watch": true
+        "script": "./bws.js"
     }]
 }
